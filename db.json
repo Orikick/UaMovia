@@ -1,29 +1,28 @@
 {
   "user": [
     {
-      "id": "adminuser",
-      "name": "Nihira",
-      "password": "admin",
-      "email": "nihiratechiees@gmail.com",
+      "id": "Orest",
+      "name": "Орест Лаб'як",
+      "password": "123",
+      "email": "labakorest@gmail.com",
+      "phone": "0633763648",
+      "country": "india",
+      "address": "Коломийська 9б\n4",
+      "gender": "male"
+    },
+    {
+      "id": "Or44ik",
+      "name": "Or44ik",
+      "password": "123",
+      "email": "labakorest@gmail.com",
       "phone": "8989898989",
       "country": "usa",
       "address": "",
-      "role":"admin",
-      "gender": "female"
-    },
-    {
-      "id": "ntuser",
-      "name": "Fullname",
-      "password": "ntuser",
-      "email": "email@email.com",
-      "phone": "56778889989",
-      "country": "singapore",
-      "address": "address1\naddrees2",
-      "role":"user",
+      "role": "admin",
       "gender": "male"
     }
   ],
-  "roleaccess":[
+  "roleaccess": [
     {
       "role": "admin",
       "menu": "customer",
@@ -53,30 +52,114 @@
       "havedelete": false
     }
   ],
-  "customer":[
+  "movie": [
     {
-      "code":1,
-      "name":"Chris",
-      "email":"chris@in.com"
+      "code": 0,
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5XPmp8ATUJyl0XmiyHcdGtmhCx2.jpg",
+      "name": "Сторожова застава",
+      "genre": "Бойовик, Пригоди, Комедія, Сімейний, Фентезі, Історичний",
+      "director":"Квентін Тарантіно",
+      "slogan":"Захисти минуле заради майбутнього.",
+      "about":"Сонячне затемнення активізує магічний портал часу. Звичайний хлопець Вітько потрапляє з 21 століття на тисячу років назад. Так починається його небезпечна, сповнена пригод подорож. Попереду смертельні небезпеки, чорна магія, зустріч з новими друзями і справжніми героями билин - богатирями: юним Олешком, могутнім Іллею та суворим Добринею - все це у супроводі вражаючих візуальних ефектів. Вітько опиняється в самому епіцентрі неймовірних подій, вступає в битву з міфічним істотами і дізнається, що таке справжня хоробрість.",
+      "date":"12/10/2017",
+      "link":"https://streamable.com/bpy0j7",
+      "background":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7yIoCsxeL2UzjUjULufEzIUlwI4.jpg"
     },
     {
-      "code":2,
-      "name":"Lynn",
-      "email":"lynn@in.com"
+      "code": 1,
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/AgD21g85q0Yx66YGyKVoLsPzGIV.jpg",
+      "name": "Поводир",
+      "genre": "Історичний, Драма",
+      "director":"Олесь Санін",
+      "slogan":"Заплющ очі. Дивись серцем.",
+      "about":"Україна 1930-х років. Хлопчик, до рук якого потрапляють небезпечні політичні документи, мандрує незнайомими землями зі сліпим кобзарем.",
+      "date":"12/11/2014",
+      "link":"https://streamable.com/psrcj5",
+      "background":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7yIoCsxeL2UzjUjULufEzIUlwI4.jpg"
     },
     {
-      "code":3,
-      "name":"Tim",
-      "email":"tim@in.com"
+      "code": 2,
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cMwGWpNpD6bPP3mbuEBwmEDm4EV.jpg",
+      "name": "Пропала грамота",
+      "genre": "Комедія, Фентезі, Історичний, Пригоди",
+      "director":"Борис Івченко",
+      "slogan":"",
+      "about":"Козак Василь, повернувшись додому в Диканьку після битви, отримує важливе завдання від гетьмана: доставити грамоту до цариці у Петербург. Запорожець Андрій супроводжує його, і разом вони стикаються з витівками нечистої сили, яка полює на грамоту. «Пропала грамота» - фільм з гострими антиімперськими меседжами, адаптація оповідання Миколи Гоголя, з вражаючою грою Івана Миколайчука. Фільм пролежав 11 років і займає 12 місце в рейтингу найкращих українських фільмів.",
+      "date":"01/01/1972",
+      "link":"https://streamable.com/kpzqab",
+      "background":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7yIoCsxeL2UzjUjULufEzIUlwI4.jpg"
     },
     {
-      "code":4,
-      "name":"Southee",
-      "email":"southee@in.com"
-    },{
-      "code":5,
-      "name":"boult",
-      "email":"bould@in.com"
+      "code": 3,
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sFqkmOcjqgjcHAqltzeFvEHTDcs.jpg",
+      "name": "Слуга народу 2",
+      "genre": "Комедія",
+      "director":"Олексій Кірющенко",
+      "slogan":"",
+      "about":"Президент Василь Голобородько при владі вже майже півроку. Економічна ситуація в країні погіршилася, ціни ростуть, національна валюта знецінюється. Кредит народної довіри до Президента стрімко падає...",
+      "date":"24/12/2016",
+      "link":"https://streamable.com/vh6d16",
+      "background":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7yIoCsxeL2UzjUjULufEzIUlwI4.jpg"
+    },
+    {
+      "code": 4,
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gcDtCVANU3sjl7wdTNzu4BSYsMN.jpg",
+      "name": "Довбуш",
+      "genre": "Бойовик, Пригоди, Комедія, Сімейний, Фентезі, Історичний",
+      "director":"Олесь Санін",
+      "slogan":"Гідність або забуття.",
+      "about":"У першій половині XVIII ст. у містичних Карпатських горах розгортається драма життя Олекси Довбуша, його непростого кохання та боротьби за гідну долю для свого народу, і тут навічно оселяється таїна його безсмертя. Ватага опришків під проводом двох братів, Івана та Олекси Довбушів, їхня невловимість і зухвалість стали надією для народу і пострахом для ворогів. Дороги братів розходяться, панство кидає всі зусилля на придушення волелюбних настроїв, якими охоплені Карпати. Смерть чи безсмертя переможуть у цьому двобої?",
+      "date":"12/10/2017",
+      "link":"https://streamable.com/hocfz4",
+      "background":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7yIoCsxeL2UzjUjULufEzIUlwI4.jpg"
+    },
+    {
+      "code": 5,
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4NVlnp9JNHgYLMTB34NV7ivMDMa.jpg",
+      "name": "Максим Оса: Золото Песиголовця",
+      "genre": "Детектив, Історичний",
+      "director":"Мирослав Латик",
+      "slogan":"Не вір своїм очам.",
+      "about":"1636 рік. Король польський відправляє на Січ платню, аби запобігти заворушенням серед козаків, але скарб губиться десь в українських землях. Осі доведеться розгадувати багато місцевих секретів і розплутувати відьмацьке павутиння. І врешті — він навіть знайде свій хрест і буде похований живцем. А от яка доля золота і кому воно дістанеться — не довідається навіть писар, який веде цю оповідь.",
+      "date":"13/10/2022",
+      "link":"https://streamable.com/o9tky2",
+      "background":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7yIoCsxeL2UzjUjULufEzIUlwI4.jpg"
+    },
+    {
+      "code": 7,
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/r1pIEAhMAb7pd39m3cSbdtoHg0r.jpg",
+      "name": "Кіборги ",
+      "genre": "Військовий, Бойовик, Драма",
+      "director":"Ахтем Сейтаблаєв",
+      "slogan":"Герої не вмирають",
+      "about":"Історія людей, які, незалежно від освіти, професії та мови, приїхали в ДАП захищати Україну. Це не лише воєнна історія, скільки історія про смисли. Цей фільм про те, за що воюють наші хлопці, про що вони думають і чим дихають. У фільмі є все — і внутрішні конфлікти, і любов, і дружба, і силу духу.",
+      "date":"07/12/2017",
+      "link":"https://streamable.com/36eh5v",
+      "background":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7yIoCsxeL2UzjUjULufEzIUlwI4.jpg"
+    },
+    {
+      "code": 8,
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zHSi32kZuKjWBFq3RJVkfPJNuYF.jpg",
+      "name": "Іван Сила",
+      "genre": "Пригоди, Історичний",
+      "director":"Віктор Андрієнко",
+      "slogan":"Правда завжди переможе",
+      "about":"Дія фільму розгортається в Європі початку ХХ століття, тому всі до єдиного люди в кадрі, включаючи численну масовку, були одягнені в історичні костюми, надані для картини чеською студією 'Баррандов'. У фільмі немає декорацій - всі сцени зняті в живих будівлях і справжніх інтер'єрах тієї епохи, в справжній фортеці, в теперішньому цирку. Крім того, і всі видовищні, всі силові трюки виконані у фільмі наживо. У картині можна буде побачити справжніх сажотрусів, унікальні ретро-автомобілі та ще багато атрибутів епохи, з якою нас розділяє практично ціле століття.",
+      "date":"02/10/2013",
+      "link":"https://streamable.com/7xgatu",
+      "background":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7yIoCsxeL2UzjUjULufEzIUlwI4.jpg"
+    },
+    {
+      "code": 9,
+      "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uyQJwG0Mubg8ZPPJFQBm3aZZQ9E.jpg",
+      "name": "Пекельна Хоругва, або Різдво Козацьке",
+      "genre": "Пригоди, Фентезі, Комедія, Сімейний",
+      "director":"Михайло Костров",
+      "slogan":"",
+      "about":"Козаки багато років захищали український народ від усякої напасті, не шкодуючи ні своєї крові, ні своїх життів заради блага простих людей. Саме тому прощаються їм усі гріхи, якщо померли в бою за справедливість, і жодної душі козацької в пеклі ви не знайдете, нічого їм там робити. Але Диявол був би не Дияволом, якби не хотів змінити цей порядок. Прикро йому, що жодного козака за стільки років не бачив у себе, ось і вирішив з апостолом Петром посперечатися, що зможе зловити та до Різдва утримати в себе найкращого та найбільш хороброго козака на ім'я Семен. Тільки ось хлопця сам чорт не підкупить і не залякає, що з ним робити з таким?",
+      "date":"24/12/2020",
+      "link":"https://streamable.com/9agtia",
+      "background":"https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/7yIoCsxeL2UzjUjULufEzIUlwI4.jpg"
     }
   ]
 }

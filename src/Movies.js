@@ -69,13 +69,24 @@ const Customer = () => {
         }
     }
 
-    const handleremove = () => {
-        if(haveremove){
-        toast.success('removed')
-        }else{
-            toast.warning('You are not having access for remove');
+    const handleremove = (item) => {
+        if (haveremove) {
+          // Викликаєте API для видалення об'єкта
+          fetch(`http://localhost:8000/customer/${item.code}`, {
+            method: 'DELETE',
+          }).then((res) => {
+            if (res.ok) {
+              toast.success('removed');
+              // Оновлення списку після видалення
+              loadcustomer();
+            } else {
+              toast.error('Failed to remove');
+            }
+          });
+        } else {
+          toast.warning('You are not having access for remove');
         }
-    }
+      };
 
 
     return (

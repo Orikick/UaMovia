@@ -9,7 +9,7 @@ const Register = () => {
     const [password, passwordchange] = useState("");
     const [email, emailchange] = useState("");
     const [phone, phonechange] = useState("");
-    const [country, countrychange] = useState("india");
+    const [country, countrychange] = useState("ukraine");
     const [address, addresschange] = useState("");
     const [gender, genderchange] = useState("female");
 
@@ -68,30 +68,30 @@ const Register = () => {
     }
     return (
         <div>
-            <div className="offset-lg-3 col-lg-6">
+            <div className="offset-lg-3 col-lg-6 mx-auto">
                 <form className="container" onSubmit={handlesubmit}>
                     <div className="card">
                         <div className="card-header">
-                            <h1>User Registeration</h1>
+                            <h1 style={{textAlign:'center'}}>Реєстрація користувача</h1>
                         </div>
                         <div className="card-body">
 
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <label>User Name <span className="errmsg">*</span></label>
+                                        <label>Ім'я користувача <span className="errmsg">*</span></label>
                                         <input value={id} onChange={e => idchange(e.target.value)} className="form-control"></input>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <label>Password <span className="errmsg">*</span></label>
+                                        <label>Пароль <span className="errmsg">*</span></label>
                                         <input value={password} onChange={e => passwordchange(e.target.value)} type="password" className="form-control"></input>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <label>Full Name <span className="errmsg">*</span></label>
+                                        <label>Повне Ім'я <span className="errmsg">*</span></label>
                                         <input value={name} onChange={e => namechange(e.target.value)} className="form-control"></input>
                                     </div>
                                 </div>
@@ -103,43 +103,43 @@ const Register = () => {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <label>Phone <span className="errmsg"></span></label>
+                                        <label>Номер телефону <span className="errmsg"></span></label>
                                         <input value={phone} onChange={e => phonechange(e.target.value)} className="form-control"></input>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <label>Country <span className="errmsg">*</span></label>
+                                        <label>Країна <span className="errmsg">*</span></label>
                                         <select value={country} onChange={e => countrychange(e.target.value)} className="form-control">
-                                            <option value="india">India</option>
+                                            <option value="india">Ukraine</option>
                                             <option value="usa">USA</option>
-                                            <option value="singapore">Singapore</option>
+                                            <option value="singapore">UK</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div className="col-lg-12">
                                     <div className="form-group">
-                                        <label>Address</label>
+                                        <label>Адреса</label>
                                         <textarea value={address} onChange={e => addresschange(e.target.value)} className="form-control"></textarea>
                                     </div>
                                 </div>
-                                <div className="col-lg-6">
+                                <div style={{textAlign:'center'}} className="col-lg-12">
                                     <div className="form-group">
-                                        <label>Gender</label>
+                                        <label>Стать</label>
                                         <br></br>
                                         <input type="radio" checked={gender === 'male'} onChange={e => genderchange(e.target.value)} name="gender" value="male" className="app-check"></input>
-                                        <label>Male</label>
+                                        <label>Члолвік </label>
                                         <input type="radio" checked={gender === 'female'} onChange={e => genderchange(e.target.value)} name="gender" value="female" className="app-check"></input>
-                                        <label>Female</label>
+                                        <label>Жінка</label>
                                     </div>
                                 </div>
 
                             </div>
 
                         </div>
-                        <div className="card-footer">
-                            <button type="submit" className="btn btn-primary">Register</button> |
-                            <Link to={'/login'} className="btn btn-danger">Close</Link>
+                        <div className="card-footer" style={{display:'flex', justifyContent:'center'}}>
+                            <button type="submit" className="btn btn-primary">Зареєструватись</button> |
+                            <Link to={'/login'} className="btn btn-danger">Закрити</Link>
                         </div>
                     </div>
                 </form>

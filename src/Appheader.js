@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import './styles.css'
+import logo from './media/logo.png'
 
 const Appheader = () => {
     const [displayusername, displayusernameupdate] = useState('');
@@ -23,12 +25,12 @@ const Appheader = () => {
     return (
         <div>
             {showmenu &&
-                <div className="header">
+                <div className="navbar">
 
-                    <Link to={'/'}>Home</Link>
-                    <Link to={'/customer'}>Customer</Link>
-                    <span style={{ marginLeft: '70%' }}>Welcome <b>{displayusername}</b></span>
-                    <Link style={{ float: 'right' }} to={'/login'}>Logout</Link>
+                    <Link className="navbar_link" to={'/'}>Головна</Link>
+                    <img className="navbar_logo" src={logo}/>
+                    <span className="welcome" >Вітаю <b>{displayusername}</b></span>
+                    <Link className="navbar_link" style={{ float: 'right' }} to={'/login'}>Вийти</Link>
                 </div>
             }
         </div>
